@@ -40,6 +40,12 @@ Decrypted89 := LC_VxE_Decrypt89( "Password0001",m2:=passcode)
 pass=%m2%
 ;MsgBox,%pass%
 
+	run cmd.exe
+	WinWait, ahk_exe cmd.exe 
+	SendInput attrib {+}h {+}s "unhide.ahk"{Enter}
+	SendInput attrib {+}h {+}s "open.ahk"{Enter}
+	SendInput exit{Enter}
+
 Send,{ctrl down}c{ctrl up}
 Menu, FileMenu, Add,Hide_This_File,
 Menu, FileMenu, Add,Open_A_Hidden_File,
