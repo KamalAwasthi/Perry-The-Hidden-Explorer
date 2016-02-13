@@ -8,5 +8,5 @@
 ##Hotkey: [Ctrl]+[RightClick]
 
 ##Library Used: [Libcrypt.ahk](https://github.com/ahkscript/libcrypt.ahk)
-used for encrypting th elist of hidden files and password so formed.
+used for encrypting the list of hidden files and password so formed.
 
