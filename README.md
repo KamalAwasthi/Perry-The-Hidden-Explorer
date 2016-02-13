@@ -1,6 +1,8 @@
 #Main File: [Popuptest.ahk]
 run the script to get started.
 
+##Hotkey: [Ctrl]+[RightClick]
+
 # Hidden-Explorer
 
   1. A popup menu to hide and manage the important files with password layer for security issues. 
@@ -8,7 +10,6 @@ run the script to get started.
   3. A simple list to manage the hidden file log.
   4. Password can be changed by entering the current password
 
-##Hotkey: [Ctrl]+[RightClick]
 
 ##Library Used: [Libcrypt.ahk](https://github.com/ahkscript/libcrypt.ahk)
 used for encrypting the list of hidden files and password so formed.
