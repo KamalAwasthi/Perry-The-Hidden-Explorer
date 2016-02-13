@@ -1,3 +1,6 @@
+#Main File: [Popuptest.ahk]
+run the script to get started.
+
 # Hidden-Explorer
 
   1. A popup menu to hide and manage the important files with password layer for security issues. 
