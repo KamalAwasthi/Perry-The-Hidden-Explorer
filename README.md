@@ -1,8 +1,8 @@
 # Hidden-Explorer
-1.A popup menu to hide and manage the important files with password layer for security issues. 
-2. Hiden files can be opened without unhidding them or can be made unhidden as per the need.
-3. A simple list to manage the hidden file log.
-4. Password can be changed by entering the current password
+ 1.A popup menu to hide and manage the important files with password layer for security issues. 
+ 2. Hiden files can be opened without unhidding them or can be made unhidden as per the need.
+ 3. A simple list to manage the hidden file log.
+ 4. Password can be changed by entering the current password
 
 ##Hotkey: [Ctrl]+[RightClick]
 
