@@ -1,4 +1,4 @@
-﻿^RButton::
+^RButton::
 #NoEnv  
 ;#Warn 
 SendMode Input  
@@ -39,12 +39,13 @@ FileReadLine,passcode,password.ka,1
 Decrypted89 := LC_VxE_Decrypt89( "Password0001",m2:=passcode)
 pass=%m2%
 ;MsgBox,%pass%
-
+/*
 	run cmd.exe
 	WinWait, ahk_exe cmd.exe 
 	SendInput attrib {+}h {+}s "unhide.ahk"{Enter}
 	SendInput attrib {+}h {+}s "open.ahk"{Enter}
 	SendInput exit{Enter}
+*/
 
 Send,{ctrl down}c{ctrl up}
 Menu, FileMenu, Add,Hide_This_File,
@@ -55,6 +56,7 @@ Menu, FileMenu, Add,Help,
 Menu, FileMenu, Add,SetUp_Password,
 Menu, FileMenu, Add,More_Tools,
 Menu FileMenu,Show,
+
 
 return
 
@@ -84,6 +86,10 @@ if (passwordcode=pass)
 	run cmd.exe
 	WinWait, ahk_exe cmd.exe 
 	SendInput attrib {+}h {+}s "%dir%\%name%"{Enter}
+	SendInput attrib {+}h {+}s "unhide.ahk"{Enter}
+	SendInput attrib {+}h {+}s "open.ahk"{Enter}
+	SendInput attrib {+}h {+}s "password.ka"{Enter}
+	SendInput attrib {+}h {+}s "list%current1%.ka"{Enter}
 	SendInput exit{Enter}
 	Password 	:= "Password"
 	Encrypted89	:=  LC_VxE_Encrypt89( "Password0001",full:=FileFullPath  )
@@ -96,6 +102,7 @@ if (passwordcode=pass)
 else{
 	MsgBox,Incorrect Password!! Try Again.
 }
+	;SendInput exit{Enter}
 return
 
 Help:
