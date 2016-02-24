@@ -1,6 +1,3 @@
-#Main File: [Popuptest.ahk]
-run the script to get started.
-
 ##Hotkey: [Ctrl]+[RightClick]
 
 # Hidden-Explorer
@@ -10,6 +7,13 @@ run the script to get started.
   3. A simple list to manage the hidden file log.
   4. Password can be changed by entering the current password
 
+##Getting Started:
+
+  1. Download the [Autohotkey](http://ahkscript.org/) and install.
+  2. Download the .zip filder of Hidden-Explorer.
+  3. Extract the files and save at your desired destination.
+  4. Go to the extracted folder and run(double-click) `popuptest.ahk`.
+  5. Press the Hotkey(s) to get started.
 
 ##Library Used: [Libcrypt.ahk](https://github.com/ahkscript/libcrypt.ahk)
 used for encrypting the list of hidden files and password so formed.
